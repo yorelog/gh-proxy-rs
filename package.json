@@ -1,0 +1,7 @@
+{
+  "name": "gh-proxy-rs",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "^3.78.12"
+  }
+}

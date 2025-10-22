@@ -1,0 +1,7 @@
+/target
+/build
+/node_modules
+**/*.rs.bk
+*.pdb
+.wrangler
+Cargo.lock
