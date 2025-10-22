@@ -27,12 +27,6 @@ jobs:
         with:
           toolchain: stable
 
-      - name: Install worker-build
-        run: npm install -g @cloudflare/workers-rs
-
-      - name: Install dependencies
-        run: npm install
-
       - name: Build
         run: npx wrangler deploy --dry-run
 
